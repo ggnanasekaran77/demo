@@ -1,2 +1,8 @@
-var: gnanam
-msg: Hello
+profile_name: dev
+app:
+  container:
+    name: ${profile_name}_java_1
+    port: 8000
+    stop_timeout: 60
+    image: "ggnanasekaran77/configserver:latest"
+

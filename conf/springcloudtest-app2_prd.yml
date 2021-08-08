@@ -1,0 +1,5 @@
+app:
+  container:
+    name: ${profile_name}_java_1
+    port: 9002
+
