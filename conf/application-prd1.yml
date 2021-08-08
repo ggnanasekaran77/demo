@@ -1,0 +1,4 @@
+targetEnvGroup: prd1
+app:
+  container:
+    port: 9001

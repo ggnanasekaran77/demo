@@ -1,0 +1,4 @@
+targetEnvGroup: prd2
+app:
+  container:
+    port: 9002

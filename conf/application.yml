@@ -1,7 +1,7 @@
-profile_name: dev
+targetEnv: default
 app:
   container:
-    name: ${profile_name}_java_1
+    name: ${targetEnv}_${targetEnvGroup}_${appName}
     port: 8000
     stop_timeout: 60
     image: "ggnanasekaran77/configserver:latest"
